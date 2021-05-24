@@ -2,11 +2,11 @@ import './ExpenseItem.css';
 
 const ExpenseItem = () => {
   return (
-    <div>
+    <div className="expense-item">
       <div>24 de maio de 2021</div>
-      <div>
+      <div className="expense-item__description">
         <h2>Carrro</h2>
-        <div>R$ 21.000,00</div>
+        <div className="expense-item__price">R$ 21.000,00</div>
       </div>
     </div>
   );
